@@ -1,5 +1,6 @@
 # Evening-Startpage
-A comfy startpage
+A comfy startpage made by https://github.com/TB-96/Evening-Startpage
 
-![screenshot](https://i.imgur.com/YCsxMbo.png)
-Inspired by https://github.com/jeroenpardon/sui
+changed by Mirivlad for work with PHP
+
+![screenshot](https://i.imgur.com/e8yXIpV.png)
