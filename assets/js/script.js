@@ -24,21 +24,21 @@ function startTime() {
     day: "numeric"
   }
 
-  var date = currentDate.toLocaleDateString("en-GB", dateOptions);
+  var date = currentDate.toLocaleDateString("ru-RU", dateOptions);
   document.getElementById("header-date").innerHTML = date;
 
   var time = setTimeout(function(){ startTime() }, 60000);
 }
 
 // You can add your own random quotes and stuff here
-const quotes = [
+/* const quotes = [
   'Hello, world...',
   'Goodbye world sudo rm -rf *',
   'This is a random quote'
-];
-document.getElementById("header-quote").innerText = quotes[
+]; */
+/* document.getElementById("header-quote").innerText = quotes[
   Math.floor(Math.random() * quotes.length)
-];
+]; */
 
 document.addEventListener('click', function (event) {
 
@@ -66,6 +66,7 @@ function engines () {
 	s: ['https://stackoverflow.com/search?q=', 'Stackoverflow'],
 	a: ['https://web.archive.org/web/*/', 'Archive'],
 	w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+  ya: ['https://yandex.ru/search/?text=', 'Yandex'],
   };
 }
 
