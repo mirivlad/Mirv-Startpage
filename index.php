@@ -1,6 +1,7 @@
 <?php
 include "vars.php";
 include "quotes.php";
+include "parse.php";
 ?>
 <!doctype html>
 <!--
@@ -27,12 +28,6 @@ include "quotes.php";
         <section id="header">
             <h1 id="header-time">00:00</h1>
             <h2 id="header-date">Date</h2>
-            <div id="header-quote">
-                <?php
-                    shuffle($quotes);
-                    echo $quotes[0];
-                ?>
-            </div>
             <!--<div class="randompic"> </div>-->
             <div id="search" class="searchbar">
                 <input type="text" class="searchbox" name="q" title="Search Google"
@@ -77,6 +72,14 @@ include "quotes.php";
                 ?>
             </div>
         </section>
+	<div id="header-quote">
+                <?php
+                    //shuffle($quotes);
+                    //echo $quotes[0];
+                        echo $quote;
+                ?>
+        </div>
+
     </main>
 <script src="./assets/js/script.js" type="text/javascript"></script>
 </body>
