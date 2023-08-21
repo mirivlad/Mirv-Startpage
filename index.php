@@ -1,17 +1,8 @@
 <?php
 include "vars.php";
-include "quotes.php";
 include "parse.php";
 ?>
-<!doctype html>
-<!--
- *
- * Evening Startpage
- * Inspired by https://github.com/jeroenpardon/sui
- * You can find it at https://github.com/TB-96/Evening-Startpage
- * Made by TB-96 2020
- *
--->
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <title>New Tab</title>
@@ -28,7 +19,6 @@ include "parse.php";
         <section id="header">
             <h1 id="header-time">00:00</h1>
             <h2 id="header-date">Date</h2>
-            <!--<div class="randompic"> </div>-->
             <div id="search" class="searchbar">
                 <input type="text" class="searchbox" name="q" title="Search Google"
                 placeholder="Search..." id="main-search" spellcheck="false"
@@ -74,9 +64,7 @@ include "parse.php";
         </section>
 	<div id="header-quote">
                 <?php
-                    //shuffle($quotes);
-                    //echo $quotes[0];
-                        echo $quote;
+	                echo $quote;
                 ?>
         </div>
 
