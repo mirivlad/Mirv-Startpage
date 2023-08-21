@@ -1,6 +1,7 @@
 <?php
 include "vars.php";
-include "parse.php";
+include "quotes.php";
+include "get_fav.php";
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -54,7 +55,7 @@ include "parse.php";
                     echo '<div class="links-item">';
                     echo '<h4>'.$cat.'</h4>';
                         foreach ($val as $link){
-                            echo '<a id="link" href="'.$link['url'].'">'.$link['name'].'</a>';
+                            echo '<a id="link" href="'.$link['url'].'"><img src="'.save_favicon($link['url']).'" style="width:16px;vertical-align: middle; margin-right: 0.5rem;" >'.$link['name'].'</a>';
                         }
                         
                     echo '</div>';
