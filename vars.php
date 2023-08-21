@@ -93,9 +93,10 @@ $apps = [
                 "name"=>"OK"
             ],
             [
-                "url"=>"https://youtube.com/",
-                "name"=>"Youtube"
+                "url"=>"https://github.com/",
+                "name"=>"GitHub"
             ],
+            
         ],
         "МЕДИА"=>
         [
@@ -106,6 +107,10 @@ $apps = [
             [
                 "url"=>"https://hd.kinopoisk.ru/",
                 "name"=>"KinoPoisk"
+            ],
+            [
+                "url"=>"https://youtube.com/",
+                "name"=>"Youtube"
             ],
 
         ],

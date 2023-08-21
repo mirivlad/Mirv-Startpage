@@ -5,4 +5,4 @@ The display data is stored in the PHP array in a separate file. Additionally, 1 
 
 Thanks for the idea and template https://github.com/TB-96/Evening-Startpage.
 
-![screenshot](https://i.imgur.com/e8yXIpV.png)
+![screenshot](https://i.imgur.com/qkIUSuN.png)
